@@ -86,19 +86,22 @@
   .container {
     width: 90%;
   }
-  .shop-area .heading{
+  .s-area {
+    padding-left: 0;
+  }
+  .shop-area .heading {
     font-size: 32px;
     line-height: 40px;
   }
   .products {
     flex-direction: column;
   }
-  .products .heading{
+  .products .heading {
     font-size: 32px;
   }
   /* Sponsor Section */
-  .s-logo{
-    grid-template-columns: repeat(1,1fr);
+  .s-logo {
+    grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 20px;
   }
   /* Footer Section */
@@ -177,8 +180,8 @@
     flex-direction: column;
   }
   /* Sponsor Section */
-  .s-logo{
-    grid-template-columns: repeat(3,1fr);
+  .s-logo {
+    grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 30px;
     padding-left: 0px;
   }
