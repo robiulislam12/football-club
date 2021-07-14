@@ -86,9 +86,7 @@
   .container {
     width: 90%;
   }
-  .s-area {
-    padding-left: 0;
-  }
+
   .shop-area .heading {
     font-size: 32px;
     line-height: 40px;
@@ -99,10 +97,16 @@
   .products .heading {
     font-size: 32px;
   }
+  .products .product img {
+    width: 300px;
+  }
   /* Sponsor Section */
   .s-logo {
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 20px;
+  }
+  .s-area {
+    padding-left: 0;
   }
   /* Footer Section */
   .footer-section .logo img {
